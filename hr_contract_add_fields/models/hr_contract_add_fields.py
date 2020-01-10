@@ -12,7 +12,7 @@ class Contract(models.Model):
     _name = 'hr.contract'
     _inherit = ["hr.contract"]
 
-    #######################################ASIGNACIONES##################################################################
+   #hola #######################################ASIGNACIONES##################################################################
     night_bonus_check = fields.Boolean(string='Night Bonus')
     night_bonus_value = fields.Integer(string='Night Bonus Value')
     #night_bonus = fields.Float(string='Night Bonus', digits=(10,2))
